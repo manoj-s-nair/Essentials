@@ -1,0 +1,61 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<html>
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+<title>ISEE 2015 | Count Down...</title>
+<link rel="stylesheet" href="css/styles.css" type="text/css" media="all" />
+<script src="js/jquery-1.11.3.min.js"></script>
+<script type="text/javascript" src="js/jquery.downCount.js"></script> 
+<script type="text/javascript">
+$(document).ready(function() { 
+	$('.countdown').downCount({
+		date: '08/7/2015 23:59:59',
+  offset: +1
+	});
+});
+</script> 
+<style>
+img.displayed {
+    width:300px;
+    height: auto;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+	}
+body p strong {
+	font-family: Dosis SemiBold;
+}
+</style>    
+</head>
+<body>
+<audio controls autoplay hidden="hidden">
+  <source src="media/journey.ogg" type="audio/ogg">
+  <source src="media/journey.mp3" type="audio/mpeg">
+</audio>
+<a href="http://www.amrita.edu/"><img src="media/Amrita Viswavidyapeetham.png" alt="Amrita" width="230" height="95" align="left"></a>  
+<a href="http://www.ieee.org"><img src="media/ieee_logo.png" alt="IEEE" width="246" height="78" align="right"></a>
+<a href="https://www.amrita.edu/isee2015/"><img src="media/countdown.gif" width="336" height="252" class="displayed" align="middle"></a>
+<h1 style="margin:50px 30px ; text-align:center"><strong>International Symposium on Education, Technology and Entrepreneurship (ISEE) 2015</strong></h1>
+<ul class="countdown">
+		<li>
+			<span class="days">00</span>
+		  <p class="days_ref">days</p>
+  </li>
+		<li>
+			<span class="hours">00</span>
+		  <p class="hours_ref">hours</p>
+	  </li>
+		<li>
+			<span class="minutes">00</span>
+		  <p class="minutes_ref">minutes</p>
+		</li>
+		<li>
+			<span class="seconds last">00</span>
+		  <p class="seconds_ref">seconds to go</p>
+    </li>
+    <p><a href="https://www.facebook.com/isee2015"><img src="media/Follow_us_on_Facebook.png" alt="Like Us" width="200" height="75" align="middle"></a></p>
+</ul>
+</body>
+</html>
